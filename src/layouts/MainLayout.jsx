@@ -1,14 +1,17 @@
+import Header from "@/components/Header/Header";
 import { Outlet } from "react-router-dom";
 
 export default function MainLayout() {
-    return(
-        <>
-        {/* Header */}
+  return (
+    <>
+      {/* Header */}
+      <Header />
+      {/* Content */}
+      <div className="container">
+        <Outlet />
+      </div>
 
-        {/* Content */}
-        <Outlet/>
-
-        {/* Footer */}
-        </>
-    )
+      {/* Footer */}
+    </>
+  );
 }

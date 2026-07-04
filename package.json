@@ -1,5 +1,5 @@
 {
-  "name": "sav",
+  "name": "template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.3.1",
+    "@hookform/resolvers": "^5.4.0",
     "primeicons": "^7.0.0",
     "primereact": "^10.9.8",
     "react": "^19.2.7",
